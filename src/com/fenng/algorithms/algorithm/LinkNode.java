@@ -1,9 +1,10 @@
-```java
-public class LinkedListReverse {
+package com.fenng.algorithms.algorithm;
+
+public class LinkNode {
     // 入口函数
     public static void main(String[] arg){
 
-        LinkedListReverse linkedListReverse = new LinkedListReverse();
+        LinkNode linkedListReverse = new LinkNode();
 
         // 1.创建链表
         Node head = linkedListReverse.createLinkedList();
@@ -66,4 +67,3 @@ public class LinkedListReverse {
         return p2;
     }
 }
-```
